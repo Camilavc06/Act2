@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Actividad 2,P4</title>
+	<link rel="stylesheet" type="text/css" href="act2.css"></a>
+</head>
+<body>
+	<a href="index2.html" class="a2">Haz click!</a>
+	<div id="respu" class="texto"></div>
+	<div class="hola" onclick="agregar()">Agregar</div>
+	<form>
+		<div class="a5"><label>Nombre del producto</label><br>
+		<input type="text" id="nom" placeholder="Nombre" class="a51"></div>
+		<div class="a3"><label>Precio</label><br>
+		<input type="text" id="pre" placeholder="Precio" class="a31"></div>
+	</form>
+<script>
+	function agregar() {
+		nom1=nom.value;
+		pre1=pre.value;
+		nuevot="<div class='dife'>"+nom1+" "+pre1+"</div>";
+		conte=respu.innerHTML;
+		conte=conte+nuevot;
+		respu.innerHTML=conte;
+		console.log(conte);
+	}
+</script>
+</body>
+</html>

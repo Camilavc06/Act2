@@ -1,0 +1,67 @@
+.cua{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 90%;
+	height: 40%;
+	border: solid 5px;
+}
+.cua1{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 20%;
+	height: 30%;
+	border: solid 5px;
+}
+.cua2{
+	position: absolute;
+	top: 60%;
+	left: 75%;
+	width: 20%;
+	height: 30%;
+	border: solid 5px;
+}
+.cua3{
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	width: 40%;
+	height: 30%;
+	border: solid 5px;
+}
+.tim{
+	position: absolute;
+	top: -1%;
+	left: 60%;
+	font-size: 60px;
+ 	font-family:a1;
+ }
+ .sco{
+	position: absolute;
+	top: -1%;
+	left: 15%;
+	font-size: 60px;
+ 	font-family:a1;
+ }
+ .pre{
+	position: absolute;
+	top: -1%;
+	left: 40%;
+	font-size: 60px;
+ 	font-family:a1;
+ }
+ .res{
+	position: absolute;
+	top: -1%;
+	left: 5%;
+	font-size: 60px;
+ 	font-family:a1;
+ }
+ .bot{
+	position: absolute;
+	top: -1%;
+	left: 25%;
+	font-size: 60px;
+ 	font-family:a1;
+ }
